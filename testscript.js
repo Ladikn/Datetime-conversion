@@ -12,14 +12,17 @@ function parseTime(x) {
 function parseBlank() {
 	var x = "";
 	$("#blank").html(parseTime(x));
+	allTest();
 }
 
 function parseDate() {
 	var x = new Date(2015, 3, 2015);
 	$("#date").html(parseTime(x));
+	allTest();
 }
 
 function parseString() {
 	var x = "2015-04-22T19:52Z";
 	$("#string").html(parseTime(x));
+	allTest();
 }
